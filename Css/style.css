@@ -320,7 +320,7 @@ html{
 
 #contact{
   width: 100%;
-  padding: 90px 0;
+  padding: 70px 0;
   background:black;
   position: relative;
 }
@@ -400,7 +400,7 @@ html{
   .service-box-1 img,.service-box-2 img,.service-box-3 img,.service-box-4 img{
     width: 180px;
     height: 100%;
-		margin:0px 20px;
+    margin:0px 20px;
   }
 }
 
@@ -452,19 +452,19 @@ html{
   .service-box-1 img,.service-box-2 img,.service-box-3 img,.service-box-4 img{
     width: 140px;
     height: 100%;
-		margin:0px 20px;
+   margin:0px 20px;
   }
 
   #contact{
-    padding: 160px 0;
+    padding: 210px 0;
   }
       
     .right-infor{
-      position:absolute;
-      top: 430px;
+      padding-top: 140px;
       left: 20px;
   }
 }
+
 
 @media all and (max-width:290px){
 
@@ -479,12 +479,16 @@ html{
   .service-box-1 img,.service-box-2 img,.service-box-3 img,.service-box-4 img{
     width: 117px;
     height: 100%;
-		margin:0px 10px;
+    margin:0px 10px;
+  }
+
+  #contact{
+    padding: 200px 0;
   }
 
   .right-infor{
     position:absolute;
-    top: 460px;
+    bottom: -5px;
     left: 20px;
 }
 }
